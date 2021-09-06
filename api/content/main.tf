@@ -1,4 +1,4 @@
-resource "null_resource" "hello_world2" {
+resource "null_resource" "hello_world" {
   provisioner "local-exec" {
     command = "env"
   }
